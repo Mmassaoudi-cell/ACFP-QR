@@ -1,0 +1,83 @@
+{
+  "ecsm": {
+    "mean_ms": 0.3363395999476779,
+    "median_ms": 0.31800000579096377,
+    "std_ms": 0.04041461399828665
+  },
+  "ecdsa_sign": {
+    "mean_ms": 0.373365599749377,
+    "median_ms": 0.3634000022429973,
+    "std_ms": 0.04159066355013043
+  },
+  "ecdsa_verify": {
+    "mean_ms": 1.4229698003910016,
+    "median_ms": 1.3509000054909848,
+    "std_ms": 0.13472051649766106
+  },
+  "pairwise_masking_3neighbors": {
+    "mean_ms": 3.406399399682414,
+    "median_ms": 3.2651500005158596,
+    "std_ms": 0.5309413306506631
+  },
+  "threshold_schnorr_partial_agg_T3": {
+    "mean_ms": 2.2088589999475516,
+    "median_ms": 2.1583500056294724,
+    "std_ms": 0.1946476137424471
+  },
+  "published_reference_ms": {
+    "ecsm": 0.49,
+    "ecdsa_sign": 0.5,
+    "ecdsa_verify": 0.45,
+    "hardware": "AMD Ryzen 7 4700U @ 2.0GHz, 16GB RAM (paper)"
+  },
+  "message_counts": [
+    {
+      "n": 5,
+      "proposed_4n": 20,
+      "coordinator_p2p_2n_plus_n(n-1)": 30,
+      "fully_decentralized_2n(n-1)": 40
+    },
+    {
+      "n": 10,
+      "proposed_4n": 40,
+      "coordinator_p2p_2n_plus_n(n-1)": 110,
+      "fully_decentralized_2n(n-1)": 180
+    },
+    {
+      "n": 20,
+      "proposed_4n": 80,
+      "coordinator_p2p_2n_plus_n(n-1)": 420,
+      "fully_decentralized_2n(n-1)": 760
+    },
+    {
+      "n": 30,
+      "proposed_4n": 120,
+      "coordinator_p2p_2n_plus_n(n-1)": 930,
+      "fully_decentralized_2n(n-1)": 1740
+    },
+    {
+      "n": 50,
+      "proposed_4n": 200,
+      "coordinator_p2p_2n_plus_n(n-1)": 2550,
+      "fully_decentralized_2n(n-1)": 4900
+    },
+    {
+      "n": 70,
+      "proposed_4n": 280,
+      "coordinator_p2p_2n_plus_n(n-1)": 4970,
+      "fully_decentralized_2n(n-1)": 9660
+    },
+    {
+      "n": 90,
+      "proposed_4n": 360,
+      "coordinator_p2p_2n_plus_n(n-1)": 8190,
+      "fully_decentralized_2n(n-1)": 16020
+    },
+    {
+      "n": 100,
+      "proposed_4n": 400,
+      "coordinator_p2p_2n_plus_n(n-1)": 10100,
+      "fully_decentralized_2n(n-1)": 19800
+    }
+  ]
+}

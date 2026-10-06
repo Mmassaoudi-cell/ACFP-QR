@@ -1,0 +1,18 @@
+# Paper figures and tables are intentionally excluded from this code repository
+figures/
+tables/
+manuscript/
+
+# Source (third-party) paper PDF and project archive - not part of the method's source code
+*.pdf
+*.zip
+
+# Python / tooling artifacts
+__pycache__/
+*.pyc
+scripts/catboost_info/
+.ipynb_checkpoints/
+
+# OS cruft
+.DS_Store
+Thumbs.db
