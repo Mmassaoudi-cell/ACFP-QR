@@ -11,9 +11,7 @@ python scripts/crypto_repro.py         # -> results/raw/crypto_repro.json, real 
 ```
 python scripts/data_gefcom.py          # -> DATA_SPLIT_MANIFEST.csv, asserts no cross-split leakage
 ```
-Requires `C:\Users\MMASSAOUDI\Desktop\Data\Load Data\GEFCom2014_Dataset\...` (see DATA_AUDIT.md
-for the exact path and provenance). Adjust `TASK15`/`SOLUTION` constants at the top of
-`scripts/data_gefcom.py` if the data folder is relocated.
+
 
 ## 2. Stage 1/2 benchmark screening (TRAIN/VAL only, clean data)
 ```
