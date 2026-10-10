@@ -1,10 +1,5 @@
 # Reproduction guide
 
-All commands run from the project root
-(`C:\Users\MMASSAOUDI\Desktop\research work\Alienware\Innovative paper 39`) with the
-environment in `requirements.txt` installed (`pip install -r requirements.txt`).
-Read `FINAL_RESEARCH_SUMMARY.md` first for the overall narrative; each artifact below links back
-to the task-spec section it satisfies.
 
 ## 0. Source-paper audit and reproduction (no ML training required)
 ```
